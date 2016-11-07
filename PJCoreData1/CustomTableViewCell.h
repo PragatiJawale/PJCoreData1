@@ -1,0 +1,16 @@
+//
+//  CustomTableViewCell.h
+//  PJCoreData1
+//
+//  Created by Mac on 07/11/16.
+//  Copyright © 2016 Pragati Jawale. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CustomTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *labelName;
+@property (strong, nonatomic) IBOutlet UILabel *labelModel;
+@property (strong, nonatomic) IBOutlet UILabel *labelCompany;
+
+@end
